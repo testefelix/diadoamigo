@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("dia\ do\ amigo\ img2/wallpapermenu.jpg");
+    background-size: cover;   
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.titulo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+    color: #634343;
+}
+.titulo h2 {
+    color: rgb(79, 8, 8);
+    font-family: 'Limelight', cursive;
+    font-size: 30px;
+}
+
+.brownboard {
+    background-color: #9c706d ;
+    border: 15px double rgb(119, 4, 4);
+    max-width: 968px;
+    width: 64%;
+    margin: auto;
+    border-radius: 90px;
+}
+
+.namesbox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 65px ;
+    margin-bottom: 20px;
+}
+
+.names {
+    background: #634343;
+    color: #ffe2af;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    padding: 16px 70px 16px 70px;
+    border: 4px solid rgb(119, 4, 4);
+    border-radius: 45px;
+    font-family: 'Limelight', cursive;
+    font-size:28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.5s; 
+}
+
+.names:hover {
+    border: 3px;
+    border-style:solid ;
+    border-color: #8a1d1d;
+    background-color: rgb(119, 4, 4);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imgbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs1 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 4%;
+    gap: 20px;
+
+}
+#imgs1-1 {
+    max-width: 285px;
+}
+#imgs1-2 {
+    max-width: 300px;
+}
+#imgs1-kauan {
+    position: absolute;
+    width: 242px;
+    height: 220px;
+    transform: translate(9.8%, 181%)
+}
+
+.imgs2 {
+    position: relative;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+    gap: 90px;
+}
+#imgs2-1 {
+    max-width: 230px;
+}
+#imgs2-2 {
+    max-width: 280px;
+}
+#imgs2-pedro {
+    position: absolute;
+    width: 178px;
+    height: 161px;
+    left: 16.99%;
+    bottom: 11.5%;
+    transform: rotate(-20.5deg);
+}
+#imgs2-mari {
+    position: absolute;
+    width: 160px;
+    height: 161px;
+    left: 15.5%;
+    top: 11.8%;
+    transform: rotate(-4deg);
+}
+
+.imgs3 {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-right: 4%;
+    gap: 40px;
+}
+#imgs3-1 {
+    max-width: 285px; 
+}
+#imgs3-lucas {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    transform: translate(30%, 155%);
+}
+#imgs3-felix {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    transform: translate(30%, 44%);
+}
+
+p {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: #634343; 
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+.namesbox a {
+    text-decoration: none;
+    color: #ffe2af;
+}
